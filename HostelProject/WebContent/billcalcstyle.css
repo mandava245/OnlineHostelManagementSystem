@@ -1,0 +1,59 @@
+@CHARSET "utf-8";
+#header{
+	font-family: Cambria;
+	background-color: #FDF7FD;
+	font-weight: bold;
+	color: #784432;
+	text-decoration: underline;
+}
+table{
+	width: auto;
+	border: 2px groove orange;
+	border-radius: 6px;
+	text-align: center;
+}
+th{
+	font-size: 28px;
+	font-weight: bold;
+	border-radius: 6px;
+	border: 1px groove #B76528;
+	font-weight: bold;
+	color: #4A3977;
+	background-color: #FDE8FB;
+}
+td{
+	border-radius: 5px;
+	border: 1px groove #0AB824;
+	color: #D21A1A;
+	background-color: #EBF3F2;
+}
+label{
+	font-size: 24px;
+}
+h3{
+	font-family: Cambria;
+}
+#amount{
+	font-weight: bold;
+	font-size: 28px;
+	color: #30687A;
+}
+button{
+	color: #F2095A;
+	font-family: Cambria;
+	font-size: 24px;
+	font-weight: bold;
+	border: 2px solid #DDD3DE;
+	border-radius: 7px 5px 7px 5px;
+	background-color: #EFDCCF;
+}
+button:hover{
+	border-radius: 5px 7px 5px 7px;
+	cursor: pointer;
+	font-family: Cambria;
+	font-size: 24px;
+	color: #02AFBD; 
+	font-weight: bold;
+	border: 2.5px groove #DDD3DE;
+	background-color: #E6CEB7;
+}

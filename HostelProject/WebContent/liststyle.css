@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+h2{
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	font-weight: italic;
+}
+#lists{
+	text-align: center;
+	border-radius: 7px 7px 7px 7px;
+	border: 3px solid #D5DFA8;
+	color: #65682D;
+	background-color: #F4FAFF;
+	font-size: 24px;
+	height: 45px;
+}
+#lists option{
+	border-radius: 7px 7px 7px 7px;
+	border: 2px thin #FF6;
+	text-align: center;
+	text-height: 30px;
+	font-size: 24px;
+	width: auto;
+}
+#lists:hover{
+cursor: pointer;
+border: 3px solid #F80E8E;
+border-radius: 7px 7px 7px 7px;
+color: #0D5201;
+background-color: #FFF8E8;
+font-size: 24px;
+height: 45px;
+text-align: center;
+}
+input{
+	border: 2px solid #D5DFA8;
+	border-radius: 7px 7px 7px 7px;
+	color: #65682D;
+	background-color: #F4FAFF;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-family: Andalus;
+}
+input:hover{
+	cursor: pointer;
+	border: 2px solid #F80E8E;
+	border-radius: 7px 7px 7px 7px;
+	color: #0D5201;
+	background-color: #FFF8E8;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-family: Andalus;
+}
+button{
+	cursor: pointer;
+	color: #F2095A;
+	font-family: Comic Sans MS;
+	font-size: 22px;
+	font-weight: bold;
+	border: 4px solid #DDD3DE;
+	border-radius: 9px 5px 9px 5px;
+	background-color: #EFDCCF;
+}
+button:hover{
+	border-radius: 5px 9px 5px 9px;
+	cursor: pointer;
+	font-family: Comic Sans MS;
+	font-size: 22px;
+	color: #02AFBD; 
+	font-weight: bold;
+	border: 4px solid #DDD3DE;
+	background-color: #E6CEB7;
+}
